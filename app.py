@@ -7,7 +7,7 @@ from PIL import Image
 from ultralytics import YOLO
 
 st.set_page_config(page_title="AI Vision DefectGuard", layout="wide")
-st.title("🛡️ AI Vision DefectGuard - Deep Learning Quality Control")
+st.title("🛡️ AI Vision DefectGuard")
 
 @st.cache_resource
 def load_model():
